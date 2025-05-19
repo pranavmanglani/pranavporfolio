@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+name = "Pranav Manglani"
+def change_name():
+    name = "changed"
+st.button("Change name",onclick=changename())
